@@ -138,7 +138,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/misty_hm5_npc.glb",
       "image": "",
-      "animation": "ondine_lancer",
+      "animation": "idle",
       "categorie": [
         "heros-kanto",
         "champions-kanto"
@@ -212,7 +212,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/n_hm5_npc.glb",
       "image": "",
-      "animation": "ball_toss",
+      "animation": "idle",
       "categorie": "team-plasma"
     },
     {
@@ -229,7 +229,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/colress_hm5_npc.glb",
       "image": "",
-      "animation": "colress_analyse",
+      "animation": "idle",
       "categorie": "team-plasma"
     },
     {
@@ -246,7 +246,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/zinzolin_hm5_npc.glb",
       "image": "",
-      "animation": "zinzolin_gel",
+      "animation": "idle",
       "categorie": "team-plasma"
     },
     {
@@ -263,7 +263,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/rood_hm5_npc.glb",
       "image": "",
-      "animation": "rood_priere",
+      "animation": "idle",
       "categorie": "team-plasma"
     },
     {
@@ -280,7 +280,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/shadow_triad_hm5_npc.glb",
       "image": "",
-      "animation": "ombre_eclipse",
+      "animation": "idle",
       "categorie": "team-plasma"
     },
     {
@@ -297,7 +297,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/plasma_grunt_m_hm5_npc.glb",
       "image": "",
-      "animation": "sbire_defi",
+      "animation": "idle",
       "categorie": "team-plasma"
     },
     {
@@ -314,7 +314,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/plasma_grunt_f_hm5_npc.glb",
       "image": "",
-      "animation": "sbire_lancer",
+      "animation": "idle",
       "categorie": "team-plasma"
     },
     {
@@ -331,7 +331,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/archie_hm5_npc.glb",
       "image": "",
-      "animation": "aqua_rire",
+      "animation": "idle",
       "categorie": "team-aqua"
     },
     {
@@ -348,7 +348,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/matt_hm5_npc.glb",
       "image": "",
-      "animation": "matthieu_force",
+      "animation": "idle",
       "categorie": "team-aqua"
     },
     {
@@ -365,7 +365,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/shelly_hm5_npc.glb",
       "image": "",
-      "animation": "sarah_defi",
+      "animation": "idle",
       "categorie": "team-aqua"
     },
     {
@@ -382,7 +382,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/aqua_grunt_m_hm5_npc.glb",
       "image": "",
-      "animation": "aqua_abordage",
+      "animation": "idle",
       "categorie": "team-aqua"
     },
     {
@@ -399,7 +399,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/aqua_grunt_f_hm5_npc.glb",
       "image": "",
-      "animation": "aqua_vague",
+      "animation": "idle",
       "categorie": "team-aqua"
     },
     {
@@ -416,7 +416,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/maxie_hm5_npc.glb",
       "image": "",
-      "animation": "magma_lunettes",
+      "animation": "idle",
       "categorie": "team-magma"
     },
     {
@@ -433,7 +433,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/tabitha_hm5_npc.glb",
       "image": "",
-      "animation": "kelvin_rire",
+      "animation": "idle",
       "categorie": "team-magma"
     },
     {
@@ -450,7 +450,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/courtney_hm5_npc.glb",
       "image": "",
-      "animation": "courtney_analyse",
+      "animation": "idle",
       "categorie": "team-magma"
     },
     {
@@ -467,7 +467,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/magma_grunt_m_hm5_npc.glb",
       "image": "",
-      "animation": "magma_eruption",
+      "animation": "idle",
       "categorie": "team-magma"
     },
     {
@@ -484,7 +484,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/magma_grunt_f_hm5_npc.glb",
       "image": "",
-      "animation": "magma_flamme",
+      "animation": "idle",
       "categorie": "team-magma"
     },
     {
@@ -501,7 +501,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/cyrus_hm5_npc.glb",
       "image": "",
-      "animation": "helio_ordre",
+      "animation": "idle",
       "categorie": "team-galaxie"
     },
     {
@@ -518,7 +518,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/mars_hm5_npc.glb",
       "image": "",
-      "animation": "mars_defi",
+      "animation": "idle",
       "categorie": "team-galaxie"
     },
     {
@@ -535,7 +535,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/jupiter_hm5_npc.glb",
       "image": "",
-      "animation": "jupiter_dedain",
+      "animation": "idle",
       "categorie": "team-galaxie"
     },
     {
@@ -552,7 +552,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/saturn_hm5_npc.glb",
       "image": "",
-      "animation": "saturn_ordre",
+      "animation": "idle",
       "categorie": "team-galaxie"
     },
     {
@@ -569,7 +569,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/charon_hm5_npc.glb",
       "image": "",
-      "animation": "pluton_rire",
+      "animation": "idle",
       "categorie": "team-galaxie"
     },
     {
@@ -586,7 +586,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/galactic_grunt_m_hm5_npc.glb",
       "image": "",
-      "animation": "galaxie_salut",
+      "animation": "idle",
       "categorie": "team-galaxie"
     },
     {
@@ -603,7 +603,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/galactic_grunt_f_hm5_npc.glb",
       "image": "",
-      "animation": "galaxie_pose",
+      "animation": "idle",
       "categorie": "team-galaxie"
     },
     {
@@ -620,7 +620,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/giovanni_hm5_npc.glb",
       "image": "",
-      "animation": "giovanni_ordre",
+      "animation": "idle",
       "categorie": "team-rocket"
     },
     {
@@ -637,7 +637,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/archer_hm5_npc.glb",
       "image": "",
-      "animation": "archer_proclame",
+      "animation": "idle",
       "categorie": "team-rocket"
     },
     {
@@ -654,7 +654,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/ariana_hm5_npc.glb",
       "image": "",
-      "animation": "ariana_meche",
+      "animation": "idle",
       "categorie": "team-rocket"
     },
     {
@@ -671,7 +671,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/petrel_hm5_npc.glb",
       "image": "",
-      "animation": "petrel_imitation",
+      "animation": "idle",
       "categorie": "team-rocket"
     },
     {
@@ -688,7 +688,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/proton_hm5_npc.glb",
       "image": "",
-      "animation": "proton_poing",
+      "animation": "idle",
       "categorie": "team-rocket"
     },
     {
@@ -705,7 +705,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/rocket_grunt_m_hm5_npc.glb",
       "image": "",
-      "animation": "rocket_defi",
+      "animation": "idle",
       "categorie": "team-rocket"
     },
     {
@@ -722,7 +722,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/rocket_grunt_f_hm5_npc.glb",
       "image": "",
-      "animation": "rocket_defi",
+      "animation": "idle",
       "categorie": "team-rocket"
     },
     {
@@ -739,7 +739,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/jessie_hm5_npc.glb",
       "image": "",
-      "animation": "jessie_devise",
+      "animation": "idle",
       "categorie": "team-rocket"
     },
     {
@@ -756,7 +756,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/james_hm5_npc.glb",
       "image": "",
-      "animation": "james_devise",
+      "animation": "idle",
       "categorie": "team-rocket"
     },
     {
@@ -773,7 +773,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/meowth_hm5_npc.glb",
       "image": "",
-      "animation": "miaouss_griffes",
+      "animation": "idle",
       "categorie": "team-rocket"
     },
     {
@@ -790,7 +790,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/guzma_hm5_npc.glb",
       "image": "",
-      "animation": "guzma_destruction",
+      "animation": "idle",
       "categorie": "team-skull"
     },
     {
@@ -807,7 +807,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/plumeria_hm5_npc.glb",
       "image": "",
-      "animation": "plumeria_avertissement",
+      "animation": "idle",
       "categorie": "team-skull"
     },
     {
@@ -824,7 +824,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/skull_grunt_m_hm5_npc.glb",
       "image": "",
-      "animation": "skull_pose",
+      "animation": "idle",
       "categorie": "team-skull"
     },
     {
@@ -841,7 +841,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/skull_grunt_f_hm5_npc.glb",
       "image": "",
-      "animation": "skull_pose",
+      "animation": "idle",
       "categorie": "team-skull"
     },
     {
@@ -858,7 +858,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/gladion_hm5_npc.glb",
       "image": "",
-      "animation": "gladio_main",
+      "animation": "idle",
       "categorie": "team-skull"
     },
     {
@@ -875,7 +875,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/lusamine_hm5_npc.glb",
       "image": "",
-      "animation": "lusamine_amour",
+      "animation": "idle",
       "categorie": "fondation-aether"
     },
     {
@@ -892,7 +892,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/faba_hm5_npc.glb",
       "image": "",
-      "animation": "faba_arrogance",
+      "animation": "idle",
       "categorie": "fondation-aether"
     },
     {
@@ -909,7 +909,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/wicke_hm5_npc.glb",
       "image": "",
-      "animation": "wicke_reverence",
+      "animation": "idle",
       "categorie": "fondation-aether"
     },
     {
@@ -926,7 +926,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/aether_employee_m_hm5_npc.glb",
       "image": "",
-      "animation": "aether_accueil",
+      "animation": "idle",
       "categorie": "fondation-aether"
     },
     {
@@ -943,7 +943,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/aether_employee_f_hm5_npc.glb",
       "image": "",
-      "animation": "aether_accueil",
+      "animation": "idle",
       "categorie": "fondation-aether"
     },
     {
@@ -960,7 +960,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/yell_grunt_m_hm5_npc.glb",
       "image": "",
-      "animation": "yell_encouragement",
+      "animation": "idle",
       "categorie": "team-yell"
     },
     {
@@ -977,7 +977,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/yell_grunt_f_hm5_npc.glb",
       "image": "",
-      "animation": "yell_encouragement",
+      "animation": "idle",
       "categorie": "team-yell"
     },
     {
@@ -994,7 +994,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/marnie_hm5_npc.glb",
       "image": "",
-      "animation": "rosemary_regard",
+      "animation": "idle",
       "categorie": "team-yell"
     },
     {
@@ -1011,7 +1011,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/piers_hm5_npc.glb",
       "image": "",
-      "animation": "peterson_concert",
+      "animation": "idle",
       "categorie": "team-yell"
     },
     {
@@ -1028,7 +1028,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/rose_hm5_npc.glb",
       "image": "",
-      "animation": "shehroz_ambition",
+      "animation": "idle",
       "categorie": "macro-cosmos"
     },
     {
@@ -1045,7 +1045,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/oleana_hm5_npc.glb",
       "image": "",
-      "animation": "liv_horaire",
+      "animation": "idle",
       "categorie": "macro-cosmos"
     },
     {
@@ -1062,7 +1062,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/cosmos_employee_m_hm5_npc.glb",
       "image": "",
-      "animation": "cosmos_sifflet",
+      "animation": "idle",
       "categorie": "macro-cosmos"
     },
     {
@@ -1079,7 +1079,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/cosmos_employee_f_hm5_npc.glb",
       "image": "",
-      "animation": "cosmos_sifflet",
+      "animation": "idle",
       "categorie": "macro-cosmos"
     },
     {
@@ -1096,7 +1096,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/blue_hm5_npc.glb",
       "image": "",
-      "animation": "blue_provocation",
+      "animation": "idle",
       "categorie": "maitres-ligue"
     },
     {
@@ -1113,7 +1113,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/lance_hm5_npc.glb",
       "image": "",
-      "animation": "peter_cape",
+      "animation": "idle",
       "categorie": "maitres-ligue"
     },
     {
@@ -1130,7 +1130,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/wallace_hm5_npc.glb",
       "image": "",
-      "animation": "marc_elegance",
+      "animation": "idle",
       "categorie": "maitres-ligue"
     },
     {
@@ -1147,7 +1147,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/cynthia_hm5_npc.glb",
       "image": "",
-      "animation": "cynthia_serenite",
+      "animation": "idle",
       "categorie": "maitres-ligue"
     },
     {
@@ -1164,7 +1164,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/alder_hm5_npc.glb",
       "image": "",
-      "animation": "goyah_horizon",
+      "animation": "idle",
       "categorie": "maitres-ligue"
     },
     {
@@ -1181,7 +1181,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/iris_hm5_npc.glb",
       "image": "",
-      "animation": "iris_dragon",
+      "animation": "idle",
       "categorie": "maitres-ligue"
     },
     {
@@ -1198,7 +1198,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/diantha_hm5_npc.glb",
       "image": "",
-      "animation": "dianthea_actrice",
+      "animation": "idle",
       "categorie": "maitres-ligue"
     },
     {
@@ -1215,7 +1215,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/leon_hm5_npc.glb",
       "image": "",
-      "animation": "tarak_champion",
+      "animation": "idle",
       "categorie": "maitres-ligue"
     },
     {
@@ -1232,7 +1232,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/geeta_hm5_npc.glb",
       "image": "",
-      "animation": "alisma_autorite",
+      "animation": "idle",
       "categorie": "maitres-ligue"
     },
     {
@@ -1249,7 +1249,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/lt_surge_hm5_npc.glb",
       "image": "",
-      "animation": "bob_eclair",
+      "animation": "idle",
       "categorie": "champions-kanto"
     },
     {
@@ -1266,7 +1266,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/erika_hm5_npc.glb",
       "image": "",
-      "animation": "erika_petale",
+      "animation": "idle",
       "categorie": "champions-kanto"
     },
     {
@@ -1283,7 +1283,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/koga_hm5_npc.glb",
       "image": "",
-      "animation": "koga_ninja",
+      "animation": "idle",
       "categorie": "champions-kanto"
     },
     {
@@ -1300,7 +1300,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/sabrina_hm5_npc.glb",
       "image": "",
-      "animation": "morgane_psy",
+      "animation": "idle",
       "categorie": "champions-kanto"
     },
     {
@@ -1317,7 +1317,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/blaine_hm5_npc.glb",
       "image": "",
-      "animation": "auguste_lunettes",
+      "animation": "idle",
       "categorie": "champions-kanto"
     },
     {
@@ -1334,7 +1334,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/oak_hm5_npc.glb",
       "image": "",
-      "animation": "chen_reflexion",
+      "animation": "idle",
       "categorie": "professeurs"
     },
     {
@@ -1351,7 +1351,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/elm_hm5_npc.glb",
       "image": "",
-      "animation": "orme_panique",
+      "animation": "idle",
       "categorie": "professeurs"
     },
     {
@@ -1368,7 +1368,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/birch_hm5_npc.glb",
       "image": "",
-      "animation": "seko_course",
+      "animation": "idle",
       "categorie": "professeurs"
     },
     {
@@ -1385,7 +1385,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/rowan_hm5_npc.glb",
       "image": "",
-      "animation": "sorbier_severe",
+      "animation": "idle",
       "categorie": "professeurs"
     },
     {
@@ -1402,7 +1402,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/juniper_hm5_npc.glb",
       "image": "",
-      "animation": "keteleeria_salut",
+      "animation": "idle",
       "categorie": "professeurs"
     },
     {
@@ -1419,7 +1419,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/sycamore_hm5_npc.glb",
       "image": "",
-      "animation": "platane_accueil",
+      "animation": "idle",
       "categorie": "professeurs"
     },
     {
@@ -1436,7 +1436,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/kukui_hm5_npc.glb",
       "image": "",
-      "animation": "euphorbe_attaque",
+      "animation": "idle",
       "categorie": "professeurs"
     },
     {
@@ -1453,7 +1453,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/magnolia_hm5_npc.glb",
       "image": "",
-      "animation": "magnolia_lecon",
+      "animation": "idle",
       "categorie": "professeurs"
     },
     {
@@ -1470,7 +1470,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/sonia_hm5_npc.glb",
       "image": "",
-      "animation": "sonia_selfie",
+      "animation": "idle",
       "categorie": "professeurs"
     },
     {
@@ -1487,7 +1487,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/sada_hm5_npc.glb",
       "image": "",
-      "animation": "sada_primitif",
+      "animation": "idle",
       "categorie": "professeurs"
     },
     {
@@ -1504,7 +1504,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/turo_hm5_npc.glb",
       "image": "",
-      "animation": "turo_futur",
+      "animation": "idle",
       "categorie": "professeurs"
     }
   ],
