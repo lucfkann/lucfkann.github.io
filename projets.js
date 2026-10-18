@@ -8,52 +8,78 @@ const DATA = {
   },
   "categories": [
     {
-      "id": "cobblemon",
-      "nom": "Cobblemon",
+      "id": "mobs",
+      "nom": "Mobs",
+      "enfants": []
+    },
+    {
+      "id": "outils-armures",
+      "nom": "Outils & armures",
+      "enfants": []
+    },
+    {
+      "id": "blocs-decors",
+      "nom": "Blocs & décors",
+      "enfants": []
+    },
+    {
+      "id": "pnj",
+      "nom": "PNJ",
       "enfants": [
         {
-          "id": "heros",
-          "nom": "Héros",
+          "id": "cobblemon",
+          "nom": "Cobblemon",
           "enfants": [
             {
-              "id": "heros-kanto",
-              "nom": "Kanto",
-              "enfants": []
-            }
-          ]
-        },
-        {
-          "id": "teams",
-          "nom": "Teams maléfiques",
-          "enfants": [
-            {
-              "id": "team-rocket",
-              "nom": "Team Rocket",
-              "enfants": []
+              "id": "heros",
+              "nom": "Héros",
+              "enfants": [
+                {
+                  "id": "heros-kanto",
+                  "nom": "Kanto",
+                  "enfants": []
+                }
+              ]
             },
             {
-              "id": "team-aqua",
-              "nom": "Team Aqua",
-              "enfants": []
-            },
-            {
-              "id": "team-magma",
-              "nom": "Team Magma",
-              "enfants": []
-            },
-            {
-              "id": "team-galaxie",
-              "nom": "Team Galaxie",
-              "enfants": []
-            },
-            {
-              "id": "team-plasma",
-              "nom": "Team Plasma",
-              "enfants": []
+              "id": "teams",
+              "nom": "Teams maléfiques",
+              "enfants": [
+                {
+                  "id": "team-rocket",
+                  "nom": "Team Rocket",
+                  "enfants": []
+                },
+                {
+                  "id": "team-aqua",
+                  "nom": "Team Aqua",
+                  "enfants": []
+                },
+                {
+                  "id": "team-magma",
+                  "nom": "Team Magma",
+                  "enfants": []
+                },
+                {
+                  "id": "team-galaxie",
+                  "nom": "Team Galaxie",
+                  "enfants": []
+                },
+                {
+                  "id": "team-plasma",
+                  "nom": "Team Plasma",
+                  "enfants": []
+                }
+              ]
             }
           ]
         }
       ]
+    },
+    {
+      "id": "pokemon",
+      "nom": "Pokémon (Cobblemon)",
+      "enfants": []
     }
   ],
   "modeles": [
@@ -122,7 +148,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/ghetsis_hm5_npc.glb",
       "image": "",
-      "animation": "ghetis_colere",
+      "animation": "idle",
       "categorie": "team-plasma"
     },
     {
