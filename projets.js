@@ -6,6 +6,56 @@ const DATA = {
     "discord": "lucfkann",
     "liens": {}
   },
+  "categories": [
+    {
+      "id": "cobblemon",
+      "nom": "Cobblemon",
+      "enfants": [
+        {
+          "id": "heros",
+          "nom": "Héros",
+          "enfants": [
+            {
+              "id": "heros-kanto",
+              "nom": "Kanto",
+              "enfants": []
+            }
+          ]
+        },
+        {
+          "id": "teams",
+          "nom": "Teams maléfiques",
+          "enfants": [
+            {
+              "id": "team-rocket",
+              "nom": "Team Rocket",
+              "enfants": []
+            },
+            {
+              "id": "team-aqua",
+              "nom": "Team Aqua",
+              "enfants": []
+            },
+            {
+              "id": "team-magma",
+              "nom": "Team Magma",
+              "enfants": []
+            },
+            {
+              "id": "team-galaxie",
+              "nom": "Team Galaxie",
+              "enfants": []
+            },
+            {
+              "id": "team-plasma",
+              "nom": "Team Plasma",
+              "enfants": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "modeles": [
     {
       "titre": "Misty Cobblemon",
@@ -21,7 +71,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/misty_hm5_npc.glb",
       "image": "",
-      "animation": "ondine_lancer"
+      "animation": "ondine_lancer",
+      "categorie": "heros-kanto"
     },
     {
       "titre": "Broke Cobblemon",
@@ -37,7 +88,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/brock_hm5_npc.glb",
       "image": "",
-      "animation": "idle"
+      "animation": "idle",
+      "categorie": "heros-kanto"
     },
     {
       "titre": "Ash Cobblemon",
@@ -53,7 +105,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/ash_hm5_npc.glb",
       "image": "",
-      "animation": "idle"
+      "animation": "idle",
+      "categorie": "heros-kanto"
     },
     {
       "titre": "Ghetsis Cobblemon",
@@ -69,7 +122,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/ghetsis_hm5_npc.glb",
       "image": "",
-      "animation": "ghetis_colere"
+      "animation": "ghetis_colere",
+      "categorie": "team-plasma"
     },
     {
       "titre": "N Cobblemon",
@@ -85,7 +139,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/n_hm5_npc.glb",
       "image": "",
-      "animation": "ball_toss"
+      "animation": "ball_toss",
+      "categorie": "team-plasma"
     },
     {
       "titre": "Colress Cobblemon",
@@ -101,7 +156,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/colress_hm5_npc.glb",
       "image": "",
-      "animation": "colress_analyse"
+      "animation": "colress_analyse",
+      "categorie": "team-plasma"
     },
     {
       "titre": "Zinzolin Cobblemon",
@@ -117,7 +173,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/zinzolin_hm5_npc.glb",
       "image": "",
-      "animation": "zinzolin_gel"
+      "animation": "zinzolin_gel",
+      "categorie": "team-plasma"
     },
     {
       "titre": "Rood Cobblemon",
@@ -133,7 +190,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/rood_hm5_npc.glb",
       "image": "",
-      "animation": "rood_priere"
+      "animation": "rood_priere",
+      "categorie": "team-plasma"
     },
     {
       "titre": "Shadow Triad Cobblemon",
@@ -149,7 +207,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/shadow_triad_hm5_npc.glb",
       "image": "",
-      "animation": "ombre_eclipse"
+      "animation": "ombre_eclipse",
+      "categorie": "team-plasma"
     },
     {
       "titre": "Plasma Grunt (M) Cobblemon",
@@ -165,7 +224,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/plasma_grunt_m_hm5_npc.glb",
       "image": "",
-      "animation": "sbire_defi"
+      "animation": "sbire_defi",
+      "categorie": "team-plasma"
     },
     {
       "titre": "Plasma Grunt (F) Cobblemon",
@@ -181,7 +241,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/plasma_grunt_f_hm5_npc.glb",
       "image": "",
-      "animation": "sbire_lancer"
+      "animation": "sbire_lancer",
+      "categorie": "team-plasma"
     },
     {
       "titre": "Archie Cobblemon",
@@ -197,7 +258,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/archie_hm5_npc.glb",
       "image": "",
-      "animation": "aqua_rire"
+      "animation": "aqua_rire",
+      "categorie": "team-aqua"
     },
     {
       "titre": "Matt Cobblemon",
@@ -213,7 +275,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/matt_hm5_npc.glb",
       "image": "",
-      "animation": "matthieu_force"
+      "animation": "matthieu_force",
+      "categorie": "team-aqua"
     },
     {
       "titre": "Shelly Cobblemon",
@@ -229,7 +292,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/shelly_hm5_npc.glb",
       "image": "",
-      "animation": "sarah_defi"
+      "animation": "sarah_defi",
+      "categorie": "team-aqua"
     },
     {
       "titre": "Aqua Grunt (M) Cobblemon",
@@ -245,7 +309,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/aqua_grunt_m_hm5_npc.glb",
       "image": "",
-      "animation": "aqua_abordage"
+      "animation": "aqua_abordage",
+      "categorie": "team-aqua"
     },
     {
       "titre": "Aqua Grunt (F) Cobblemon",
@@ -261,7 +326,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/aqua_grunt_f_hm5_npc.glb",
       "image": "",
-      "animation": "aqua_vague"
+      "animation": "aqua_vague",
+      "categorie": "team-aqua"
     },
     {
       "titre": "Maxie Cobblemon",
@@ -277,7 +343,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/maxie_hm5_npc.glb",
       "image": "",
-      "animation": "magma_lunettes"
+      "animation": "magma_lunettes",
+      "categorie": "team-magma"
     },
     {
       "titre": "Tabitha Cobblemon",
@@ -293,7 +360,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/tabitha_hm5_npc.glb",
       "image": "",
-      "animation": "kelvin_rire"
+      "animation": "kelvin_rire",
+      "categorie": "team-magma"
     },
     {
       "titre": "Courtney Cobblemon",
@@ -309,7 +377,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/courtney_hm5_npc.glb",
       "image": "",
-      "animation": "courtney_analyse"
+      "animation": "courtney_analyse",
+      "categorie": "team-magma"
     },
     {
       "titre": "Magma Grunt (M) Cobblemon",
@@ -325,7 +394,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/magma_grunt_m_hm5_npc.glb",
       "image": "",
-      "animation": "magma_eruption"
+      "animation": "magma_eruption",
+      "categorie": "team-magma"
     },
     {
       "titre": "Magma Grunt (F) Cobblemon",
@@ -341,7 +411,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/magma_grunt_f_hm5_npc.glb",
       "image": "",
-      "animation": "magma_flamme"
+      "animation": "magma_flamme",
+      "categorie": "team-magma"
     },
     {
       "titre": "Cyrus Cobblemon",
@@ -357,7 +428,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/cyrus_hm5_npc.glb",
       "image": "",
-      "animation": "helio_ordre"
+      "animation": "helio_ordre",
+      "categorie": "team-galaxie"
     },
     {
       "titre": "Mars Cobblemon",
@@ -373,7 +445,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/mars_hm5_npc.glb",
       "image": "",
-      "animation": "mars_defi"
+      "animation": "mars_defi",
+      "categorie": "team-galaxie"
     },
     {
       "titre": "Jupiter Cobblemon",
@@ -389,7 +462,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/jupiter_hm5_npc.glb",
       "image": "",
-      "animation": "jupiter_dedain"
+      "animation": "jupiter_dedain",
+      "categorie": "team-galaxie"
     },
     {
       "titre": "Saturn Cobblemon",
@@ -405,7 +479,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/saturn_hm5_npc.glb",
       "image": "",
-      "animation": "saturn_ordre"
+      "animation": "saturn_ordre",
+      "categorie": "team-galaxie"
     },
     {
       "titre": "Charon Cobblemon",
@@ -421,7 +496,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/charon_hm5_npc.glb",
       "image": "",
-      "animation": "pluton_rire"
+      "animation": "pluton_rire",
+      "categorie": "team-galaxie"
     },
     {
       "titre": "Galactic Grunt (M) Cobblemon",
@@ -437,7 +513,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/galactic_grunt_m_hm5_npc.glb",
       "image": "",
-      "animation": "galaxie_salut"
+      "animation": "galaxie_salut",
+      "categorie": "team-galaxie"
     },
     {
       "titre": "Galactic Grunt (F) Cobblemon",
@@ -453,7 +530,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/galactic_grunt_f_hm5_npc.glb",
       "image": "",
-      "animation": "galaxie_pose"
+      "animation": "galaxie_pose",
+      "categorie": "team-galaxie"
     },
     {
       "titre": "Giovanni Cobblemon",
@@ -469,7 +547,8 @@ const DATA = {
       "liens": {},
       "fichier": "models/giovanni_hm5_npc.glb",
       "image": "",
-      "animation": "giovanni_ordre"
+      "animation": "giovanni_ordre",
+      "categorie": "team-rocket"
     }
   ],
   "plugins": [],

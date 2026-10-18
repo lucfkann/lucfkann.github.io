@@ -139,3 +139,17 @@ a.contact-item:hover { border-color: var(--accent); }
 
 /* Captures de sites : pas d'effet pixel */
 .viewer img.capture { image-rendering: auto; object-position: top; }
+
+/* Catégories des modèles : une rangée de puces par niveau */
+.filtres { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+.filtres:empty { display: none; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips-sub { padding-left: 14px; border-left: 2px solid var(--border); }
+.chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 6px 12px; border-radius: 999px; font: inherit; font-size: 14px; cursor: pointer;
+  background: var(--surface); border: 1px solid var(--border); color: var(--text);
+}
+.chip:hover { border-color: var(--muted); }
+.chip.active { background: var(--accent); border-color: var(--accent); color: var(--accent-text); }
+.chip-nb { font-size: 12px; opacity: .75; }

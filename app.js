@@ -111,10 +111,76 @@ function remplir(id, items, carte, vide) {
   else zone.append(el("p", { class: "empty", text: vide }));
 }
 
+// ---------- Catégories des modèles (arbre éditable dans l'admin) ----------
+// DATA.categories = [{ id, nom, enfants: [...] }] ; chaque modèle a un champ "categorie" (id d'un nœud).
+
+function noeuds(arbre, parents = []) {
+  // liste à plat : { cat, chemin: [ids depuis la racine] }
+  return (arbre || []).flatMap(c => [{ cat: c, chemin: [...parents, c.id] }, ...noeuds(c.enfants, [...parents, c.id])]);
+}
+
+const AUTRES = "__autres";
+let selection = [];   // ids du chemin choisi (vide = tout)
+
+function modelesDe(id) {
+  const tous = DATA.modeles || [];
+  if (!id) return tous;
+  const liste = noeuds(DATA.categories);
+  if (id === AUTRES) return tous.filter(m => !liste.some(n => n.cat.id === m.categorie));
+  const ids = new Set(liste.filter(n => n.chemin.includes(id)).map(n => n.cat.id));
+  return tous.filter(m => ids.has(m.categorie));
+}
+
+function puce(texte, nb, actif, onclick) {
+  const b = el("button", { class: "chip" + (actif ? " active" : ""), type: "button" }, [
+    el("span", { text: texte }), el("span", { class: "chip-nb", text: String(nb) }),
+  ]);
+  b.addEventListener("click", onclick);
+  return b;
+}
+
+function rendreModeles() {
+  const zone = document.getElementById("liste-modeles");
+  const filtres = document.getElementById("filtres-modeles");
+  zone.innerHTML = "";
+  filtres.innerHTML = "";
+  const arbre = DATA.categories || [];
+  if (arbre.length) {
+    // une rangée de puces par niveau : racine, puis les enfants de chaque catégorie choisie
+    let niveau = arbre, profondeur = 0;
+    while (niveau && niveau.length) {
+      const visibles = niveau.filter(c => modelesDe(c.id).length);
+      if (!visibles.length) break;
+      const p = profondeur;               // copie : les clics doivent garder le niveau de leur rangée
+      const parent = selection[p - 1];
+      const rangee = el("div", { class: "chips" + (p ? " chips-sub" : "") });
+      const choisi = selection[p];
+      rangee.append(puce(p ? "Tout" : "Tous les modèles", modelesDe(parent).length, !choisi, () => {
+        selection = selection.slice(0, p); rendreModeles();
+      }));
+      for (const c of visibles) {
+        rangee.append(puce(c.nom, modelesDe(c.id).length, choisi === c.id, () => {
+          selection = [...selection.slice(0, p), c.id]; rendreModeles();
+        }));
+      }
+      if (!p && modelesDe(AUTRES).length) {
+        rangee.append(puce("Autres", modelesDe(AUTRES).length, choisi === AUTRES, () => { selection = [AUTRES]; rendreModeles(); }));
+      }
+      filtres.append(rangee);
+      const c = niveau.find(x => x.id === choisi);
+      if (!c) break;
+      niveau = c.enfants; profondeur++;
+    }
+  }
+  const items = modelesDe(selection[selection.length - 1]);
+  if (items.length) zone.append(...items.map(carteModele));
+  else zone.append(el("p", { class: "empty", text: "Les premiers modèles arrivent bientôt." }));
+}
+
 const profil = DATA.profil || {};
 document.getElementById("intro").textContent = profil.intro || "";
 document.getElementById("contact-texte").textContent = profil.contact || "";
-remplir("liste-modeles", DATA.modeles || [], carteModele, "Les premiers modèles arrivent bientôt.");
+rendreModeles();
 remplir("liste-plugins", DATA.plugins || [], cartePlugin, "Les premiers plugins arrivent bientôt.");
 remplir("liste-sites", DATA.sites || [], carteSite, "Les premiers sites arrivent bientôt.");
 document.getElementById("liste-contact").append(...contact(profil));
