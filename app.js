@@ -112,7 +112,12 @@ function remplir(id, items, carte, vide) {
 }
 
 // ---------- Catégories des modèles (arbre éditable dans l'admin) ----------
-// DATA.categories = [{ id, nom, enfants: [...] }] ; chaque modèle a un champ "categorie" (id d'un nœud).
+// DATA.categories = [{ id, nom, enfants: [...] }] ; chaque modèle a un champ "categorie" : l'id d'un nœud, ou une liste
+// d'ids quand le modèle est rangé dans plusieurs catégories à la fois.
+
+function catsDe(m) {
+  return Array.isArray(m.categorie) ? m.categorie : (m.categorie ? [m.categorie] : []);
+}
 
 function noeuds(arbre, parents = []) {
   // liste à plat : { cat, chemin: [ids depuis la racine] }
@@ -126,9 +131,9 @@ function modelesDe(id) {
   const tous = DATA.modeles || [];
   if (!id) return tous;
   const liste = noeuds(DATA.categories);
-  if (id === AUTRES) return tous.filter(m => !liste.some(n => n.cat.id === m.categorie));
+  if (id === AUTRES) return tous.filter(m => !catsDe(m).some(c => liste.some(n => n.cat.id === c)));
   const ids = new Set(liste.filter(n => n.chemin.includes(id)).map(n => n.cat.id));
-  return tous.filter(m => ids.has(m.categorie));
+  return tous.filter(m => catsDe(m).some(c => ids.has(c)));
 }
 
 function puce(texte, nb, actif, onclick) {

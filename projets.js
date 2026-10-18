@@ -139,7 +139,10 @@ const DATA = {
       "fichier": "models/misty_hm5_npc.glb",
       "image": "",
       "animation": "ondine_lancer",
-      "categorie": "heros-kanto"
+      "categorie": [
+        "heros-kanto",
+        "champions-kanto"
+      ]
     },
     {
       "titre": "Broke Cobblemon",
@@ -156,7 +159,10 @@ const DATA = {
       "fichier": "models/brock_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "heros-kanto"
+      "categorie": [
+        "heros-kanto",
+        "champions-kanto"
+      ]
     },
     {
       "titre": "Ash Cobblemon",
