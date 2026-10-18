@@ -1,0 +1,10 @@
+# Outils d'administration : restent sur ton PC, pas en ligne
+admin.html
+admin.css
+admin.js
+serveur-admin.py
+ouvrir-admin.bat
+publier.bat
+LISEZMOI.md
+*.tmp
+__pycache__/

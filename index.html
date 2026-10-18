@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>lucfkann — Portfolio</title>
+  <meta name="description" content="Portfolio de lucfkann : modèles 3D et plugins Minecraft, et sites web.">
+  <meta name="theme-color" content="#2f6fd6">
+  <meta property="og:title" content="lucfkann — Portfolio">
+  <meta property="og:description" content="Modèles 3D et plugins Minecraft, et sites web.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lucfkann.github.io/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a href="#" class="logo">lucfkann</a>
+      <nav>
+        <a href="#minecraft">Minecraft</a>
+        <a href="#sites">Sites web</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="kicker">Minecraft · Sites web</p>
+        <h1>lucfkann</h1>
+        <p class="lead" id="intro"></p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Me contacter</a>
+          <a href="#minecraft" class="btn">Voir mes créations</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="minecraft" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Minecraft</h2>
+          <p>Modèles 3D et plugins pour serveurs Minecraft.</p>
+        </div>
+
+        <div class="sub-section" id="modeles">
+          <div class="sub-head">
+            <h3>Modèles 3D</h3>
+            <p>Tourne autour des modèles à la souris ou au doigt.</p>
+          </div>
+          <div class="grid" id="liste-modeles"></div>
+        </div>
+
+        <div class="sub-section" id="plugins">
+          <div class="sub-head">
+            <h3>Plugins</h3>
+            <p>Plugins Paper / Spigot.</p>
+          </div>
+          <div class="grid" id="liste-plugins"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sites" class="section section-alt">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Sites web</h2>
+          <p>Sites et projets web que j'ai réalisés.</p>
+        </div>
+        <div class="grid" id="liste-sites"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p id="contact-texte"></p>
+        </div>
+        <div class="contact-list" id="liste-contact"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">© <span id="annee"></span> lucfkann — Non affilié à Mojang ou Microsoft.</div>
+  </footer>
+
+  <script src="projets.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
