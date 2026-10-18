@@ -575,6 +575,159 @@ const DATA = {
       "image": "",
       "animation": "giovanni_ordre",
       "categorie": "team-rocket"
+    },
+    {
+      "titre": "Archer Cobblemon",
+      "description": "An NPC inspired by the Team Rocket Executive Archer from Pokémon",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "team-rocket"
+      ],
+      "liens": {},
+      "fichier": "models/archer_hm5_npc.glb",
+      "image": "",
+      "animation": "archer_proclame",
+      "categorie": "team-rocket"
+    },
+    {
+      "titre": "Ariana Cobblemon",
+      "description": "An NPC inspired by the Team Rocket Executive Ariana from Pokémon",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "team-rocket"
+      ],
+      "liens": {},
+      "fichier": "models/ariana_hm5_npc.glb",
+      "image": "",
+      "animation": "ariana_meche",
+      "categorie": "team-rocket"
+    },
+    {
+      "titre": "Petrel Cobblemon",
+      "description": "An NPC inspired by the Team Rocket Executive Petrel from Pokémon",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "team-rocket"
+      ],
+      "liens": {},
+      "fichier": "models/petrel_hm5_npc.glb",
+      "image": "",
+      "animation": "petrel_imitation",
+      "categorie": "team-rocket"
+    },
+    {
+      "titre": "Proton Cobblemon",
+      "description": "An NPC inspired by the Team Rocket Executive Proton from Pokémon",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "team-rocket"
+      ],
+      "liens": {},
+      "fichier": "models/proton_hm5_npc.glb",
+      "image": "",
+      "animation": "proton_poing",
+      "categorie": "team-rocket"
+    },
+    {
+      "titre": "Rocket Grunt (M) Cobblemon",
+      "description": "An NPC inspired by a Team Rocket grunt from Pokémon",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "team-rocket"
+      ],
+      "liens": {},
+      "fichier": "models/rocket_grunt_m_hm5_npc.glb",
+      "image": "",
+      "animation": "rocket_defi",
+      "categorie": "team-rocket"
+    },
+    {
+      "titre": "Rocket Grunt (F) Cobblemon",
+      "description": "An NPC inspired by a Team Rocket grunt from Pokémon",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "team-rocket"
+      ],
+      "liens": {},
+      "fichier": "models/rocket_grunt_f_hm5_npc.glb",
+      "image": "",
+      "animation": "rocket_defi",
+      "categorie": "team-rocket"
+    },
+    {
+      "titre": "Jessie Cobblemon",
+      "description": "An NPC inspired by the character Jessie from the Pokémon anime",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "team-rocket"
+      ],
+      "liens": {},
+      "fichier": "models/jessie_hm5_npc.glb",
+      "image": "",
+      "animation": "jessie_devise",
+      "categorie": "team-rocket"
+    },
+    {
+      "titre": "James Cobblemon",
+      "description": "An NPC inspired by the character James from the Pokémon anime",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "team-rocket"
+      ],
+      "liens": {},
+      "fichier": "models/james_hm5_npc.glb",
+      "image": "",
+      "animation": "james_devise",
+      "categorie": "team-rocket"
+    },
+    {
+      "titre": "Meowth Cobblemon",
+      "description": "An NPC inspired by Team Rocket's Meowth from the Pokémon anime",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "team-rocket"
+      ],
+      "liens": {},
+      "fichier": "models/meowth_hm5_npc.glb",
+      "image": "",
+      "animation": "miaouss_griffes",
+      "categorie": "team-rocket"
     }
   ],
   "plugins": [],
