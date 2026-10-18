@@ -6,7 +6,23 @@ const DATA = {
     "discord": "lucfkann",
     "liens": {}
   },
-  "modeles": [],
+  "modeles": [
+    {
+      "titre": "Misty Cobblemon",
+      "description": "A NPC inspired of the character misty from pokemon",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé"
+      ],
+      "liens": {},
+      "fichier": "models/misty_hm5_npc.glb",
+      "image": "",
+      "animation": "ondine_lancer"
+    }
+  ],
   "plugins": [],
   "sites": []
 };
