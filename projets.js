@@ -773,7 +773,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/meowth_hm5_npc.glb",
       "image": "",
-      "animation": "idle",
+      "animation": "",
       "categorie": "team-rocket"
     },
     {
@@ -1028,7 +1028,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/rose_hm5_npc.glb",
       "image": "",
-      "animation": "idle",
+      "animation": "",
       "categorie": "macro-cosmos"
     },
     {
