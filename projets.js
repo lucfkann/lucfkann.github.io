@@ -2281,7 +2281,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/pikachu_lucfkann_noel_female-geo.glb",
       "image": "",
-      "animation": "animation.pikachu.dance3",
+      "animation": "animation.pikachu.dance2",
       "categorie": "apparence-sous"
     },
     {
