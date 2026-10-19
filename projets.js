@@ -2279,9 +2279,9 @@ const DATA = {
         "noël"
       ],
       "liens": {},
-      "fichier": "models/pikachu_lucfkann_noel_male.gltf",
+      "fichier": "models/pikachu_lucfkann_noel_female-geo.glb",
       "image": "",
-      "animation": "animation.pikachu.dance2",
+      "animation": "animation.pikachu.dance3",
       "categorie": "apparence-sous"
     },
     {
@@ -2426,6 +2426,78 @@ const DATA = {
       "fichier": "models/cubchoo_lucfkann_noel.gltf",
       "image": "",
       "animation": "animation.cubchoo_lucfkann_noel.battle_idle",
+      "categorie": "apparence-sous"
+    },
+    {
+      "titre": {
+        "fr": "Mew de Noël",
+        "en": "Christmas mew"
+      },
+      "description": {
+        "fr": "Un modèle customisé de mew sur le thème de Noël",
+        "en": "A customized mew model with a Christmas theme"
+      },
+      "infos": "",
+      "tags": [
+        "ModelEngine",
+        "pokemon",
+        "vanilla",
+        "moddé",
+        "apparence",
+        "noël"
+      ],
+      "liens": {},
+      "fichier": "models/mew_lucfkann_noel.glb",
+      "image": "",
+      "animation": "animation.mew_lucfkann_noel.battle_idle",
+      "categorie": "apparence-sous"
+    },
+    {
+      "titre": {
+        "fr": "Articodin de Noël",
+        "en": "Christmas Articudo"
+      },
+      "description": {
+        "fr": "Un modèle customisé d'articodin sur le thème de Noël",
+        "en": "A customized articudo model with a Christmas theme"
+      },
+      "infos": "",
+      "tags": [
+        "ModelEngine",
+        "pokemon",
+        "vanilla",
+        "moddé",
+        "apparence",
+        "noël"
+      ],
+      "liens": {},
+      "fichier": "models/articuno_lucfkann_noel-geo.glb",
+      "image": "",
+      "animation": "animation.articuno_lucfkann_noel.battle_idle",
+      "categorie": "apparence-sous"
+    },
+    {
+      "titre": {
+        "fr": "Regigigas de Noël",
+        "en": "Christmas Regigigas"
+      },
+      "description": {
+        "fr": "Un modèle customisé de regigigas sur le thème de Noël",
+        "en": "A customized regigigas model with a Christmas theme"
+      },
+      "infos": "",
+      "tags": [
+        "ModelEngine",
+        "pokemon",
+        "vanilla",
+        "moddé",
+        "apparence",
+        "noël"
+      ],
+      "liens": {},
+      "fichier": "models/regigigas_lucfkann_noel.glb",
+      "image": "",
+      "animation": "animation.regigigas_lucfkann_noel.battle_idle",
       "categorie": "apparence-sous"
     }
   ],
