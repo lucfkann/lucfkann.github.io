@@ -175,7 +175,30 @@ const DATA = {
     {
       "id": "pokemon",
       "nom": "Pokémon (Cobblemon)",
-      "enfants": []
+      "enfants": [
+        {
+          "id": "pokemon-cobblemon--sous",
+          "nom": "Fusions",
+          "enfants": []
+        },
+        {
+          "id": "pokemon-cobblemon--sous-2",
+          "nom": {
+            "fr": "Apparence",
+            "en": "Skin"
+          },
+          "enfants": [
+            {
+              "id": "apparence-sous",
+              "nom": {
+                "fr": "Noël",
+                "en": "Christmas"
+              },
+              "enfants": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "modeles": [
@@ -2188,6 +2211,102 @@ const DATA = {
       "image": "",
       "animation": "idle",
       "categorie": "anime"
+    },
+    {
+      "titre": {
+        "fr": "Blizzarroi de Noël",
+        "en": "Christmas Abomasnow"
+      },
+      "description": {
+        "fr": "Un modèle customisé de blizzaroi sur le thème de Noël",
+        "en": "A custom, Christmas-themed Abomasnow model"
+      },
+      "infos": "13 animations",
+      "tags": [
+        "ModelEngine",
+        "pokemon",
+        "vanilla",
+        "moddé",
+        "apparence",
+        "noël"
+      ],
+      "liens": {},
+      "fichier": "models/abomasnow_lucfkann_noel_male.glb",
+      "image": "",
+      "animation": "animation.abomasnow_lucfkann_noel.battle_idle",
+      "categorie": "apparence-sous"
+    },
+    {
+      "titre": {
+        "fr": "Ronflex de Noël",
+        "en": "Christmas Snorlax"
+      },
+      "description": {
+        "fr": "Un modèle customisé de Ronflex sur le thème de Noël",
+        "en": "A custom, Christmas-themed Snorlax model"
+      },
+      "infos": "9 animations",
+      "tags": [
+        "ModelEngine",
+        "pokemon",
+        "vanilla",
+        "moddé",
+        "apparence",
+        "noël"
+      ],
+      "liens": {},
+      "fichier": "models/snorlax_lucfkann_noel.glb",
+      "image": "",
+      "animation": "animation.snorlax.battle_idle",
+      "categorie": "apparence-sous"
+    },
+    {
+      "titre": {
+        "fr": "Pikachu de Noël",
+        "en": "Christmas pikachu"
+      },
+      "description": {
+        "fr": "Un modèle customisé de pikachu sur le thème de Noël",
+        "en": "A custom, Christmas-themed pikachu model"
+      },
+      "infos": "",
+      "tags": [
+        "ModelEngine",
+        "pokemon",
+        "vanilla",
+        "moddé",
+        "apparence",
+        "noël"
+      ],
+      "liens": {},
+      "fichier": "models/pikachu_lucfkann_noel_male.gltf",
+      "image": "",
+      "animation": "animation.pikachu.dance2",
+      "categorie": "apparence-sous"
+    },
+    {
+      "titre": {
+        "fr": "Cerfrousse de Noël",
+        "en": "Christmas Stanler"
+      },
+      "description": {
+        "fr": "Un modèle customisé de Cerfrousse sur le thème de Noël",
+        "en": "A custom-designed Stantler with a Christmas theme"
+      },
+      "infos": "",
+      "tags": [
+        "ModelEngine",
+        "pokemon",
+        "vanilla",
+        "moddé",
+        "apparence",
+        "noël"
+      ],
+      "liens": {},
+      "fichier": "models/stantler_lucfkann_noel.glb",
+      "image": "",
+      "animation": "animation.stantler_lucfkann_noel.battle_idle",
+      "categorie": "apparence-sous"
     }
   ],
   "plugins": [],
