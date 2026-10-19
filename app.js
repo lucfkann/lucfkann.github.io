@@ -18,7 +18,7 @@ const UI = {
     "vide.plugins": "Les premiers plugins arrivent bientôt.",
     "vide.sites": "Les premiers sites arrivent bientôt.",
     "bouton": "EN", "bouton.aide": "Switch to English",
-    "plus": "Afficher plus",
+    "plus": "Afficher plus", "theme.sombre": "Mode sombre", "theme.clair": "Mode clair",
     "plein": "Plein écran", "fermer": "Fermer", "animations": "Animations", "sans-anim": "Ce modèle n'a pas d'animation.",
   },
   en: {
@@ -35,7 +35,7 @@ const UI = {
     "vide.plugins": "The first plugins are coming soon.",
     "vide.sites": "The first websites are coming soon.",
     "bouton": "FR", "bouton.aide": "Passer en français",
-    "plus": "Show more",
+    "plus": "Show more", "theme.sombre": "Dark mode", "theme.clair": "Light mode",
     "plein": "Full screen", "fermer": "Close", "animations": "Animations", "sans-anim": "This model has no animation.",
   },
 };
@@ -355,7 +355,31 @@ function appliquerLangue() {
   }
   rendreModeles();
   majPleinEcran();
+  majBoutonTheme();
 }
+
+// ---------- Mode clair / sombre ----------
+// Sans choix du visiteur, le site suit le réglage du système (voir style.css).
+
+const systemeSombre = window.matchMedia ? matchMedia("(prefers-color-scheme: dark)") : null;
+const themeActuel = () => document.documentElement.dataset.theme || (systemeSombre?.matches ? "dark" : "light");
+
+function majBoutonTheme() {
+  const sombre = themeActuel() === "dark";
+  const b = document.getElementById("theme");
+  b.textContent = sombre ? "☀" : "☾";
+  const aide = ui(sombre ? "theme.clair" : "theme.sombre");
+  b.setAttribute("aria-label", aide);
+  b.title = aide;
+}
+
+document.getElementById("theme").addEventListener("click", () => {
+  const nouveau = themeActuel() === "dark" ? "light" : "dark";
+  document.documentElement.dataset.theme = nouveau;
+  try { localStorage.setItem("theme", nouveau); } catch {}
+  majBoutonTheme();
+});
+systemeSombre?.addEventListener?.("change", majBoutonTheme);
 
 document.getElementById("langue").addEventListener("click", () => {
   langue = langue === "fr" ? "en" : "fr";

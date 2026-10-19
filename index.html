@@ -11,7 +11,11 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://lucfkann.github.io/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=202610190414">
+  <script>
+    // Thème choisi par le visiteur, appliqué avant l'affichage (évite un flash de la mauvaise couleur)
+    try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <link rel="stylesheet" href="style.css?v=202610191627">
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 <body>
@@ -22,6 +26,7 @@
         <a href="#minecraft">Minecraft</a>
         <a href="#sites" data-i18n="nav.sites">Sites web</a>
         <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <button type="button" class="lang-btn theme-btn" id="theme" aria-label="Mode sombre">☾</button>
         <button type="button" class="lang-btn" id="langue" aria-label="Switch to English">EN</button>
       </nav>
     </div>
@@ -104,7 +109,7 @@
     </aside>
   </dialog>
 
-  <script src="projets.js?v=202610190414"></script>
-  <script src="app.js?v=202610190414"></script>
+  <script src="projets.js?v=202610191627"></script>
+  <script src="app.js?v=202610191627"></script>
 </body>
 </html>

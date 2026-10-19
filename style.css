@@ -10,6 +10,37 @@
   --warning: #b7791f;
   --danger: #c53b3b;
   --radius: 6px;
+  color-scheme: light;
+}
+
+/* Mode sombre : suit le réglage du système, sauf si le visiteur a choisi avec le bouton */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15181c;
+    --bg-alt: #1b1f24;
+    --surface: #22272e;
+    --border: #353c45;
+    --text: #e6e9ed;
+    --muted: #9ba4ae;
+    --accent: #6aa0f5;
+    --accent-text: #0d1726;
+    --warning: #e0a64a;
+    --danger: #f07a7a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15181c;
+  --bg-alt: #1b1f24;
+  --surface: #22272e;
+  --border: #353c45;
+  --text: #e6e9ed;
+  --muted: #9ba4ae;
+  --accent: #6aa0f5;
+  --accent-text: #0d1726;
+  --warning: #e0a64a;
+  --danger: #f07a7a;
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -206,4 +237,15 @@ nav { align-items: center; }
 @media (max-width: 760px) {
   .plein-ecran[open] { grid-template-columns: 1fr; grid-template-rows: 60% 40%; }
   .pe-infos { border-left: 0; border-top: 1px solid var(--border); padding: 18px; }
+}
+
+/* Bouton mode clair / sombre */
+.theme-btn { min-width: 32px; }
+
+/* Petits écrans : le menu passe sous le pseudo pour que tous les boutons tiennent */
+nav a { white-space: nowrap; }
+@media (max-width: 520px) {
+  .topbar-inner { flex-wrap: wrap; height: auto; padding-top: 10px; padding-bottom: 10px; row-gap: 8px; }
+  nav { width: 100%; justify-content: space-between; gap: 10px; }
+  .section, .sub-section { scroll-margin-top: 100px; }
 }
