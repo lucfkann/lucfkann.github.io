@@ -2499,6 +2499,30 @@ const DATA = {
       "image": "",
       "animation": "animation.regigigas_lucfkann_noel.battle_idle",
       "categorie": "apparence-sous"
+    },
+    {
+      "titre": {
+        "fr": "Locklhass de Noël",
+        "en": "Christmas Lapras"
+      },
+      "description": {
+        "fr": "Un modèle customisé de lokhlass sur le thème de Noël",
+        "en": "A customized lapras model with a Christmas theme"
+      },
+      "infos": "",
+      "tags": [
+        "ModelEngine",
+        "pokemon",
+        "vanilla",
+        "moddé",
+        "apparence",
+        "noël"
+      ],
+      "liens": {},
+      "fichier": "models/lapras_lucfkann_noel.glb",
+      "image": "",
+      "animation": "animation.lapras_lucfkann_noel.battle_idle",
+      "categorie": "apparence-sous"
     }
   ],
   "plugins": [],
