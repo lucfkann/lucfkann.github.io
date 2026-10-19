@@ -8,3 +8,4 @@ publier.bat
 LISEZMOI.md
 *.tmp
 __pycache__/
+.claude/

@@ -42,6 +42,8 @@ function carteModele(m) {
     apercu = el("model-viewer", {
       class: "viewer", src: m.fichier, alt: m.titre,
       "camera-controls": "", "auto-rotate": "", "interaction-prompt": "none",
+      // Les modèles Blockbench regardent vers -Z : on place la caméra en face d'eux.
+      "camera-orbit": "180deg 75deg auto",
       "shadow-intensity": "0.6", loading: "lazy",
       ...(m.animation ? { autoplay: "", "animation-name": m.animation } : {}),
     });
