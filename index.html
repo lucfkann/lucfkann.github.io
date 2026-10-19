@@ -11,7 +11,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://lucfkann.github.io/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=202610190351">
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 <body>
@@ -20,8 +20,9 @@
       <a href="#" class="logo">lucfkann</a>
       <nav>
         <a href="#minecraft">Minecraft</a>
-        <a href="#sites">Sites web</a>
-        <a href="#contact">Contact</a>
+        <a href="#sites" data-i18n="nav.sites">Sites web</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <button type="button" class="lang-btn" id="langue" aria-label="Switch to English">EN</button>
       </nav>
     </div>
   </header>
@@ -29,12 +30,12 @@
   <main>
     <section class="hero">
       <div class="wrap">
-        <p class="kicker">Minecraft · Sites web</p>
+        <p class="kicker" data-i18n="hero.kicker">Minecraft · Sites web</p>
         <h1>lucfkann</h1>
         <p class="lead" id="intro"></p>
         <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">Me contacter</a>
-          <a href="#minecraft" class="btn">Voir mes créations</a>
+          <a href="#contact" class="btn btn-primary" data-i18n="hero.contact">Me contacter</a>
+          <a href="#minecraft" class="btn" data-i18n="hero.voir">Voir mes créations</a>
         </div>
       </div>
     </section>
@@ -43,16 +44,17 @@
       <div class="wrap">
         <div class="section-head">
           <h2>Minecraft</h2>
-          <p>Modèles 3D et plugins pour serveurs Minecraft.</p>
+          <p data-i18n="mc.desc">Modèles 3D et plugins pour serveurs Minecraft.</p>
         </div>
 
         <div class="sub-section" id="modeles">
           <div class="sub-head">
-            <h3>Modèles 3D</h3>
-            <p>Tourne autour des modèles à la souris ou au doigt.</p>
+            <h3 data-i18n="modeles.titre">Modèles 3D</h3>
+            <p data-i18n="modeles.desc">Tourne autour des modèles à la souris ou au doigt.</p>
           </div>
           <div class="filtres" id="filtres-modeles"></div>
           <div class="grid" id="liste-modeles"></div>
+          <div class="plus" id="plus-modeles"></div>
         </div>
 
         <div class="sub-section" id="plugins">
@@ -68,8 +70,8 @@
     <section id="sites" class="section section-alt">
       <div class="wrap">
         <div class="section-head">
-          <h2>Sites web</h2>
-          <p>Sites et projets web que j'ai réalisés.</p>
+          <h2 data-i18n="nav.sites">Sites web</h2>
+          <p data-i18n="sites.desc">Sites et projets web que j'ai réalisés.</p>
         </div>
         <div class="grid" id="liste-sites"></div>
       </div>
@@ -78,7 +80,7 @@
     <section id="contact" class="section">
       <div class="wrap">
         <div class="section-head">
-          <h2>Contact</h2>
+          <h2 data-i18n="nav.contact">Contact</h2>
           <p id="contact-texte"></p>
         </div>
         <div class="contact-list" id="liste-contact"></div>
@@ -87,10 +89,22 @@
   </main>
 
   <footer class="footer">
-    <div class="wrap">© <span id="annee"></span> lucfkann — Non affilié à Mojang ou Microsoft.</div>
+    <div class="wrap">© <span id="annee"></span> lucfkann — <span data-i18n="footer">Non affilié à Mojang ou Microsoft.</span></div>
   </footer>
 
-  <script src="projets.js"></script>
-  <script src="app.js"></script>
+  <dialog class="plein-ecran" id="plein-ecran">
+    <button type="button" class="pe-fermer" id="pe-fermer" aria-label="Fermer">×</button>
+    <div class="pe-3d" id="pe-3d"></div>
+    <aside class="pe-infos">
+      <h2 id="pe-titre"></h2>
+      <p id="pe-desc"></p>
+      <h3 id="pe-titre-anim">Animations</h3>
+      <div class="chips" id="pe-animations"></div>
+      <div class="pe-extra" id="pe-extra"></div>
+    </aside>
+  </dialog>
+
+  <script src="projets.js?v=202610190351"></script>
+  <script src="app.js?v=202610190351"></script>
 </body>
 </html>
