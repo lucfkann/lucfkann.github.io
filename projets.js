@@ -2307,6 +2307,126 @@ const DATA = {
       "image": "",
       "animation": "animation.stantler_lucfkann_noel.battle_idle",
       "categorie": "apparence-sous"
+    },
+    {
+      "titre": {
+        "fr": "Charmilly de Noël",
+        "en": "Christmas alcremie"
+      },
+      "description": {
+        "fr": "Un modèle customisé de charmilly sur le thème de Noël",
+        "en": "A customized Charmilly model with a Christmas theme"
+      },
+      "infos": "",
+      "tags": [
+        "ModelEngine",
+        "pokemon",
+        "vanilla",
+        "moddé",
+        "apparence",
+        "noël"
+      ],
+      "liens": {},
+      "fichier": "models/alcremie_lucfkann_noel.glb",
+      "image": "",
+      "animation": "animation.alcremie_lucfkann_noel.battle_idle",
+      "categorie": "apparence-sous"
+    },
+    {
+      "titre": {
+        "fr": "Cadoizo de Noël",
+        "en": "Christmas delibird"
+      },
+      "description": {
+        "fr": "Un modèle customisé de Cadoizo sur le thème de Noël",
+        "en": "A customized delibird model with a Christmas theme"
+      },
+      "infos": "",
+      "tags": [
+        "ModelEngine",
+        "pokemon",
+        "vanilla",
+        "moddé",
+        "apparence",
+        "noël"
+      ],
+      "liens": {},
+      "fichier": "models/delibird_lucfkann_noel.glb",
+      "image": "",
+      "animation": "animation.delibird_lucfkann_noel.battle_idle",
+      "categorie": "apparence-sous"
+    },
+    {
+      "titre": {
+        "fr": "Evoli de Noël",
+        "en": "Christmas eevee"
+      },
+      "description": {
+        "fr": "Un modèle customisé d'évoli sur le thème de Noël",
+        "en": "A customized eevee model with a Christmas theme"
+      },
+      "infos": "",
+      "tags": [
+        "ModelEngine",
+        "pokemon",
+        "vanilla",
+        "moddé",
+        "apparence",
+        "noël"
+      ],
+      "liens": {},
+      "fichier": "models/eevee_lucfkann_noel_male.gltf",
+      "image": "",
+      "animation": "animation.eevee_lucfkann_noel.battle_idle",
+      "categorie": "apparence-sous"
+    },
+    {
+      "titre": {
+        "fr": "Ectoplasma de Noël",
+        "en": "Christmas Gengar"
+      },
+      "description": {
+        "fr": "Un modèle customisé d'Ectoplasma sur le thème de Noël",
+        "en": "A customized Gengar model with a Christmas theme"
+      },
+      "infos": "",
+      "tags": [
+        "ModelEngine",
+        "pokemon",
+        "vanilla",
+        "moddé",
+        "apparence",
+        "noël"
+      ],
+      "liens": {},
+      "fichier": "models/gengar_lucfkann_noel.gltf",
+      "image": "",
+      "animation": "animation.gengar_lucfkann_noel.battle_idle",
+      "categorie": "apparence-sous"
+    },
+    {
+      "titre": {
+        "fr": "Polarhum de Noël",
+        "en": "Christmas cubchoo"
+      },
+      "description": {
+        "fr": "Un modèle customisé de polarhum sur le thème de Noël",
+        "en": "A customized cubchoo model with a Christmas theme"
+      },
+      "infos": "",
+      "tags": [
+        "ModelEngine",
+        "pokemon",
+        "vanilla",
+        "moddé",
+        "apparence",
+        "noël"
+      ],
+      "liens": {},
+      "fichier": "models/cubchoo_lucfkann_noel.gltf",
+      "image": "",
+      "animation": "animation.cubchoo_lucfkann_noel.battle_idle",
+      "categorie": "apparence-sous"
     }
   ],
   "plugins": [],
