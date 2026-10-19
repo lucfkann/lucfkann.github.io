@@ -112,6 +112,22 @@ const DATA = {
               "id": "professeurs",
               "nom": "Professeurs",
               "enfants": []
+            },
+            {
+              "id": "conseil-4",
+              "nom": "Conseil 4",
+              "enfants": [
+                {
+                  "id": "conseil-4-kanto",
+                  "nom": "Kanto",
+                  "enfants": []
+                }
+              ]
+            },
+            {
+              "id": "anime",
+              "nom": "Anime",
+              "enfants": []
             }
           ]
         }
@@ -773,7 +789,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/meowth_hm5_npc.glb",
       "image": "",
-      "animation": "",
+      "animation": "idle",
       "categorie": "team-rocket"
     },
     {
@@ -1028,7 +1044,7 @@ const DATA = {
       "liens": {},
       "fichier": "models/rose_hm5_npc.glb",
       "image": "",
-      "animation": "",
+      "animation": "idle",
       "categorie": "macro-cosmos"
     },
     {
@@ -1114,7 +1130,10 @@ const DATA = {
       "fichier": "models/lance_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "maitres-ligue"
+      "categorie": [
+        "maitres-ligue",
+        "conseil-4-kanto"
+      ]
     },
     {
       "titre": "Wallace Cobblemon",
@@ -1506,6 +1525,108 @@ const DATA = {
       "image": "",
       "animation": "idle",
       "categorie": "professeurs"
+    },
+    {
+      "titre": "Red Cobblemon",
+      "description": "An NPC inspired by the character Red from Pokémon",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "kanto"
+      ],
+      "liens": {},
+      "fichier": "models/red_hm5_npc.glb",
+      "image": "",
+      "animation": "idle",
+      "categorie": "heros-kanto"
+    },
+    {
+      "titre": "Lorelei Cobblemon",
+      "description": "An NPC inspired by the character Lorelei of the Kanto Elite Four, from Pokémon",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "elite-four"
+      ],
+      "liens": {},
+      "fichier": "models/lorelei_hm5_npc.glb",
+      "image": "",
+      "animation": "idle",
+      "categorie": "conseil-4-kanto"
+    },
+    {
+      "titre": "Bruno Cobblemon",
+      "description": "An NPC inspired by the character Bruno of the Kanto Elite Four, from Pokémon",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "elite-four"
+      ],
+      "liens": {},
+      "fichier": "models/bruno_hm5_npc.glb",
+      "image": "",
+      "animation": "idle",
+      "categorie": "conseil-4-kanto"
+    },
+    {
+      "titre": "Agatha Cobblemon",
+      "description": "An NPC inspired by the character Agatha of the Kanto Elite Four, from Pokémon",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "elite-four"
+      ],
+      "liens": {},
+      "fichier": "models/agatha_hm5_npc.glb",
+      "image": "",
+      "animation": "idle",
+      "categorie": "conseil-4-kanto"
+    },
+    {
+      "titre": "Nurse Joy Cobblemon",
+      "description": "An NPC inspired by Nurse Joy from the Pokémon anime",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "anime"
+      ],
+      "liens": {},
+      "fichier": "models/nurse_joy_hm5_npc.glb",
+      "image": "",
+      "animation": "idle",
+      "categorie": "anime"
+    },
+    {
+      "titre": "Officer Jenny Cobblemon",
+      "description": "An NPC inspired by Officer Jenny from the Pokémon anime",
+      "infos": "3 animations",
+      "tags": [
+        "ModelEngine",
+        "NPC",
+        "vanilla",
+        "moddé",
+        "anime"
+      ],
+      "liens": {},
+      "fichier": "models/officer_jenny_hm5_npc.glb",
+      "image": "",
+      "animation": "idle",
+      "categorie": "anime"
     }
   ],
   "plugins": [],
