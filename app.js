@@ -15,6 +15,9 @@ const UI = {
     "lien.site": "Voir le site", "lien.video": "Vidéo",
     "tous": "Tous les modèles", "tout": "Tout", "autres": "Autres",
     "vide.modeles": "Les premiers modèles arrivent bientôt.",
+    "recherche": "Rechercher un modèle…", "tri": "Trier les modèles", "tri.defaut": "Ordre du portfolio",
+    "tri.az": "Nom (A → Z)", "tri.za": "Nom (Z → A)", "tri.maj": "Modifiés récemment",
+    "tri.ajout": "Ajoutés récemment", "tri.ancien": "Plus anciens", "aucun.resultat": "Aucun modèle ne correspond à ta recherche.",
     "vide.plugins": "Les premiers plugins arrivent bientôt.",
     "vide.sites": "Les premiers sites arrivent bientôt.",
     "bouton": "EN", "bouton.aide": "Switch to English",
@@ -32,6 +35,9 @@ const UI = {
     "lien.site": "Visit site", "lien.video": "Video",
     "tous": "All models", "tout": "All", "autres": "Other",
     "vide.modeles": "The first models are coming soon.",
+    "recherche": "Search a model…", "tri": "Sort the models", "tri.defaut": "Portfolio order",
+    "tri.az": "Name (A → Z)", "tri.za": "Name (Z → A)", "tri.maj": "Recently updated",
+    "tri.ajout": "Recently added", "tri.ancien": "Oldest first", "aucun.resultat": "No model matches your search.",
     "vide.plugins": "The first plugins are coming soon.",
     "vide.sites": "The first websites are coming soon.",
     "bouton": "FR", "bouton.aide": "Passer en français",
@@ -298,6 +304,35 @@ function modelesDe(id) {
   return tous.filter(m => catsDe(m).some(c => ids.has(c)));
 }
 
+// ---------- Recherche et tri ----------
+let recherche = "";
+let tri = (() => { try { return localStorage.getItem("tri-modeles") || ""; } catch { return ""; } })();
+
+function sansAccents(t) {
+  return String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+function texteRecherche(m) {
+  // titre dans les deux langues + tags + description : « jessie », « rocket », « noël »… trouvent le modèle
+  const t = m.titre && typeof m.titre === "object" ? Object.values(m.titre).join(" ") : m.titre;
+  const desc = m.description && typeof m.description === "object" ? Object.values(m.description).join(" ") : m.description;
+  return sansAccents([t, (m.tags || []).join(" "), desc].join(" "));
+}
+
+function filtrerTrier(items) {
+  let res = items;
+  const mots = sansAccents(recherche).split(/\s+/).filter(Boolean);
+  if (mots.length) res = res.filter(m => { const t = texteRecherche(m); return mots.every(w => t.includes(w)); });
+  const nom = m => sansAccents(tr(m.titre));
+  const parDate = (cle, sens) => (a, b) => sens * String(a[cle] || "").localeCompare(String(b[cle] || ""));
+  if (tri === "az") res = [...res].sort((a, b) => nom(a).localeCompare(nom(b)));
+  else if (tri === "za") res = [...res].sort((a, b) => nom(b).localeCompare(nom(a)));
+  else if (tri === "maj") res = [...res].sort(parDate("maj", -1));
+  else if (tri === "ajout") res = [...res].sort(parDate("ajout", -1));
+  else if (tri === "ancien") res = [...res].sort(parDate("ajout", 1));
+  return res;
+}
+
 function puce(texte, nb, actif, onclick) {
   const b = el("button", { class: "chip" + (actif ? " active" : ""), type: "button" }, [
     el("span", { text: texte }), el("span", { class: "chip-nb", text: String(nb) }),
@@ -346,9 +381,10 @@ function rendreModeles() {
       niveau = c.enfants; profondeur++;
     }
   }
-  const items = modelesDe(selection[selection.length - 1]);
+  const tousCat = modelesDe(selection[selection.length - 1]);
+  const items = filtrerTrier(tousCat);
   if (items.length) zone.append(...items.slice(0, affiches).map(carteDe));
-  else zone.append(el("p", { class: "empty", text: ui("vide.modeles") }));
+  else zone.append(el("p", { class: "empty", text: ui(tousCat.length ? "aucun.resultat" : "vide.modeles") }));
   const plus = document.getElementById("plus-modeles");
   plus.innerHTML = "";
   if (items.length > affiches) {
@@ -361,6 +397,8 @@ function rendreModeles() {
 function appliquerLangue() {
   document.documentElement.lang = langue;
   for (const n of document.querySelectorAll("[data-i18n]")) n.textContent = ui(n.dataset.i18n);
+  for (const n of document.querySelectorAll("[data-i18n-placeholder]")) n.placeholder = ui(n.dataset.i18nPlaceholder);
+  for (const n of document.querySelectorAll("[data-i18n-aria]")) n.setAttribute("aria-label", ui(n.dataset.i18nAria));
   for (const [node, valeur] of traduits) node.textContent = typeof valeur === "function" ? valeur() : tr(valeur);
   const bouton = document.getElementById("langue");
   bouton.textContent = ui("bouton");
@@ -412,3 +450,22 @@ remplir("liste-sites", DATA.sites || [], carteSite, "vide.sites");
 document.getElementById("liste-contact").append(...contact(profil));
 document.getElementById("annee").textContent = new Date().getFullYear();
 appliquerLangue();
+
+// Recherche et tri des modèles
+{
+  const champ = document.getElementById("recherche-modeles");
+  const choix = document.getElementById("tri-modeles");
+  if (champ && choix) {
+    choix.value = tri;
+    let minuteur;
+    champ.addEventListener("input", () => {
+      clearTimeout(minuteur);
+      minuteur = setTimeout(() => { recherche = champ.value; affiches = PAR_PAGE; rendreModeles(); }, 150);
+    });
+    choix.addEventListener("change", () => {
+      tri = choix.value; affiches = PAR_PAGE;
+      try { localStorage.setItem("tri-modeles", tri); } catch {}
+      rendreModeles();
+    });
+  }
+}

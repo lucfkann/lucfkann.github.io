@@ -15,7 +15,7 @@
     // Thème choisi par le visiteur, appliqué avant l'affichage (évite un flash de la mauvaise couleur)
     try { var t = localStorage.getItem("theme"); if (t === "dark" || t === "light") document.documentElement.dataset.theme = t; } catch (e) {}
   </script>
-  <link rel="stylesheet" href="style.css?v=202610211558">
+  <link rel="stylesheet" href="style.css?v=202610211743">
   <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
 </head>
 <body>
@@ -56,6 +56,17 @@
           <div class="sub-head">
             <h3 data-i18n="modeles.titre">Modèles 3D</h3>
             <p data-i18n="modeles.desc">Tourne autour des modèles à la souris ou au doigt.</p>
+          </div>
+          <div class="outils-modeles">
+            <input type="search" id="recherche-modeles" autocomplete="off" data-i18n-placeholder="recherche">
+            <select id="tri-modeles" data-i18n-aria="tri">
+              <option value="" data-i18n="tri.defaut">Ordre du portfolio</option>
+              <option value="az" data-i18n="tri.az">Nom (A → Z)</option>
+              <option value="za" data-i18n="tri.za">Nom (Z → A)</option>
+              <option value="maj" data-i18n="tri.maj">Modifiés récemment</option>
+              <option value="ajout" data-i18n="tri.ajout">Ajoutés récemment</option>
+              <option value="ancien" data-i18n="tri.ancien">Plus anciens</option>
+            </select>
           </div>
           <div class="filtres" id="filtres-modeles"></div>
           <div class="grid" id="liste-modeles"></div>
@@ -109,7 +120,7 @@
     </aside>
   </dialog>
 
-  <script src="projets.js?v=202610211558"></script>
-  <script src="app.js?v=202610211558"></script>
+  <script src="projets.js?v=202610211743"></script>
+  <script src="app.js?v=202610211743"></script>
 </body>
 </html>

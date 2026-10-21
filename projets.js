@@ -226,7 +226,9 @@ const DATA = {
       "categorie": [
         "heros-kanto",
         "champions-kanto"
-      ]
+      ],
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T15:31:23"
     },
     {
       "titre": {
@@ -252,7 +254,9 @@ const DATA = {
       "categorie": [
         "heros-kanto",
         "champions-kanto"
-      ]
+      ],
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T15:55:37"
     },
     {
       "titre": {
@@ -275,7 +279,9 @@ const DATA = {
       "fichier": "models/ash_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "heros-kanto"
+      "categorie": "heros-kanto",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T15:55:37"
     },
     {
       "titre": {
@@ -298,7 +304,9 @@ const DATA = {
       "fichier": "models/ghetsis_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-plasma"
+      "categorie": "team-plasma",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -321,7 +329,9 @@ const DATA = {
       "fichier": "models/n_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-plasma"
+      "categorie": "team-plasma",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -344,7 +354,9 @@ const DATA = {
       "fichier": "models/colress_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-plasma"
+      "categorie": "team-plasma",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -367,7 +379,9 @@ const DATA = {
       "fichier": "models/zinzolin_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-plasma"
+      "categorie": "team-plasma",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -390,7 +404,9 @@ const DATA = {
       "fichier": "models/rood_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-plasma"
+      "categorie": "team-plasma",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -413,7 +429,9 @@ const DATA = {
       "fichier": "models/shadow_triad_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-plasma"
+      "categorie": "team-plasma",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -436,7 +454,9 @@ const DATA = {
       "fichier": "models/plasma_grunt_m_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-plasma"
+      "categorie": "team-plasma",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -459,7 +479,9 @@ const DATA = {
       "fichier": "models/plasma_grunt_f_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-plasma"
+      "categorie": "team-plasma",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -482,7 +504,9 @@ const DATA = {
       "fichier": "models/archie_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-aqua"
+      "categorie": "team-aqua",
+      "maj": "2026-10-19T03:13:11",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -505,7 +529,9 @@ const DATA = {
       "fichier": "models/matt_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-aqua"
+      "categorie": "team-aqua",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -528,7 +554,9 @@ const DATA = {
       "fichier": "models/shelly_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-aqua"
+      "categorie": "team-aqua",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -551,7 +579,9 @@ const DATA = {
       "fichier": "models/aqua_grunt_m_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-aqua"
+      "categorie": "team-aqua",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -574,7 +604,9 @@ const DATA = {
       "fichier": "models/aqua_grunt_f_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-aqua"
+      "categorie": "team-aqua",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -597,7 +629,9 @@ const DATA = {
       "fichier": "models/maxie_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-magma"
+      "categorie": "team-magma",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -620,7 +654,9 @@ const DATA = {
       "fichier": "models/tabitha_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-magma"
+      "categorie": "team-magma",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -643,7 +679,9 @@ const DATA = {
       "fichier": "models/courtney_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-magma"
+      "categorie": "team-magma",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -666,7 +704,9 @@ const DATA = {
       "fichier": "models/magma_grunt_m_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-magma"
+      "categorie": "team-magma",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -689,7 +729,9 @@ const DATA = {
       "fichier": "models/magma_grunt_f_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-magma"
+      "categorie": "team-magma",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -712,7 +754,9 @@ const DATA = {
       "fichier": "models/cyrus_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-galaxie"
+      "categorie": "team-galaxie",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -735,7 +779,9 @@ const DATA = {
       "fichier": "models/mars_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-galaxie"
+      "categorie": "team-galaxie",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -758,7 +804,9 @@ const DATA = {
       "fichier": "models/jupiter_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-galaxie"
+      "categorie": "team-galaxie",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -781,7 +829,9 @@ const DATA = {
       "fichier": "models/saturn_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-galaxie"
+      "categorie": "team-galaxie",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -804,7 +854,9 @@ const DATA = {
       "fichier": "models/charon_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-galaxie"
+      "categorie": "team-galaxie",
+      "maj": "2026-10-19T14:06:55",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -827,7 +879,9 @@ const DATA = {
       "fichier": "models/galactic_grunt_m_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-galaxie"
+      "categorie": "team-galaxie",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -850,7 +904,9 @@ const DATA = {
       "fichier": "models/galactic_grunt_f_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-galaxie"
+      "categorie": "team-galaxie",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -873,7 +929,9 @@ const DATA = {
       "fichier": "models/giovanni_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-rocket"
+      "categorie": "team-rocket",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T16:16:45"
     },
     {
       "titre": {
@@ -896,7 +954,9 @@ const DATA = {
       "fichier": "models/archer_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-rocket"
+      "categorie": "team-rocket",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T19:42:52"
     },
     {
       "titre": {
@@ -919,7 +979,9 @@ const DATA = {
       "fichier": "models/ariana_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-rocket"
+      "categorie": "team-rocket",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T19:42:52"
     },
     {
       "titre": {
@@ -942,7 +1004,9 @@ const DATA = {
       "fichier": "models/petrel_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-rocket"
+      "categorie": "team-rocket",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T19:42:52"
     },
     {
       "titre": {
@@ -965,7 +1029,9 @@ const DATA = {
       "fichier": "models/proton_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-rocket"
+      "categorie": "team-rocket",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T19:42:52"
     },
     {
       "titre": {
@@ -988,7 +1054,9 @@ const DATA = {
       "fichier": "models/rocket_grunt_m_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-rocket"
+      "categorie": "team-rocket",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T19:42:52"
     },
     {
       "titre": {
@@ -1011,7 +1079,9 @@ const DATA = {
       "fichier": "models/rocket_grunt_f_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-rocket"
+      "categorie": "team-rocket",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T19:42:52"
     },
     {
       "titre": {
@@ -1034,7 +1104,9 @@ const DATA = {
       "fichier": "models/jessie_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-rocket"
+      "categorie": "team-rocket",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T19:42:52"
     },
     {
       "titre": {
@@ -1057,7 +1129,9 @@ const DATA = {
       "fichier": "models/james_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-rocket"
+      "categorie": "team-rocket",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T19:42:52"
     },
     {
       "titre": {
@@ -1080,7 +1154,9 @@ const DATA = {
       "fichier": "models/meowth_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-rocket"
+      "categorie": "team-rocket",
+      "maj": "2026-10-19T00:58:17",
+      "ajout": "2026-10-18T19:42:52"
     },
     {
       "titre": {
@@ -1103,7 +1179,9 @@ const DATA = {
       "fichier": "models/guzma_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-skull"
+      "categorie": "team-skull",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1126,7 +1204,9 @@ const DATA = {
       "fichier": "models/plumeria_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-skull"
+      "categorie": "team-skull",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1149,7 +1229,9 @@ const DATA = {
       "fichier": "models/skull_grunt_m_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-skull"
+      "categorie": "team-skull",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1172,7 +1254,9 @@ const DATA = {
       "fichier": "models/skull_grunt_f_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-skull"
+      "categorie": "team-skull",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1195,7 +1279,9 @@ const DATA = {
       "fichier": "models/gladion_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-skull"
+      "categorie": "team-skull",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1218,7 +1304,9 @@ const DATA = {
       "fichier": "models/lusamine_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "fondation-aether"
+      "categorie": "fondation-aether",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1241,7 +1329,9 @@ const DATA = {
       "fichier": "models/faba_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "fondation-aether"
+      "categorie": "fondation-aether",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1264,7 +1354,9 @@ const DATA = {
       "fichier": "models/wicke_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "fondation-aether"
+      "categorie": "fondation-aether",
+      "maj": "2026-10-19T14:06:55",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1287,7 +1379,9 @@ const DATA = {
       "fichier": "models/aether_employee_m_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "fondation-aether"
+      "categorie": "fondation-aether",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1310,7 +1404,9 @@ const DATA = {
       "fichier": "models/aether_employee_f_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "fondation-aether"
+      "categorie": "fondation-aether",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1333,7 +1429,9 @@ const DATA = {
       "fichier": "models/yell_grunt_m_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-yell"
+      "categorie": "team-yell",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1356,7 +1454,9 @@ const DATA = {
       "fichier": "models/yell_grunt_f_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-yell"
+      "categorie": "team-yell",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1379,7 +1479,9 @@ const DATA = {
       "fichier": "models/marnie_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-yell"
+      "categorie": "team-yell",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1402,7 +1504,9 @@ const DATA = {
       "fichier": "models/piers_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "team-yell"
+      "categorie": "team-yell",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1425,7 +1529,9 @@ const DATA = {
       "fichier": "models/rose_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "macro-cosmos"
+      "categorie": "macro-cosmos",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1448,7 +1554,9 @@ const DATA = {
       "fichier": "models/oleana_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "macro-cosmos"
+      "categorie": "macro-cosmos",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1471,7 +1579,9 @@ const DATA = {
       "fichier": "models/cosmos_employee_m_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "macro-cosmos"
+      "categorie": "macro-cosmos",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1494,7 +1604,9 @@ const DATA = {
       "fichier": "models/cosmos_employee_f_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "macro-cosmos"
+      "categorie": "macro-cosmos",
+      "maj": "2026-10-19T14:06:55",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1517,7 +1629,9 @@ const DATA = {
       "fichier": "models/blue_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "maitres-ligue"
+      "categorie": "maitres-ligue",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1543,7 +1657,9 @@ const DATA = {
       "categorie": [
         "maitres-ligue",
         "conseil-4-kanto"
-      ]
+      ],
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1566,7 +1682,9 @@ const DATA = {
       "fichier": "models/wallace_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "maitres-ligue"
+      "categorie": "maitres-ligue",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1589,7 +1707,9 @@ const DATA = {
       "fichier": "models/cynthia_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "maitres-ligue"
+      "categorie": "maitres-ligue",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1612,7 +1732,9 @@ const DATA = {
       "fichier": "models/alder_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "maitres-ligue"
+      "categorie": "maitres-ligue",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1635,7 +1757,9 @@ const DATA = {
       "fichier": "models/iris_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "maitres-ligue"
+      "categorie": "maitres-ligue",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1658,7 +1782,9 @@ const DATA = {
       "fichier": "models/diantha_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "maitres-ligue"
+      "categorie": "maitres-ligue",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1681,7 +1807,9 @@ const DATA = {
       "fichier": "models/leon_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "maitres-ligue"
+      "categorie": "maitres-ligue",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1704,7 +1832,9 @@ const DATA = {
       "fichier": "models/geeta_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "maitres-ligue"
+      "categorie": "maitres-ligue",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1727,7 +1857,9 @@ const DATA = {
       "fichier": "models/lt_surge_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "champions-kanto"
+      "categorie": "champions-kanto",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1750,7 +1882,9 @@ const DATA = {
       "fichier": "models/erika_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "champions-kanto"
+      "categorie": "champions-kanto",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1773,7 +1907,9 @@ const DATA = {
       "fichier": "models/koga_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "champions-kanto"
+      "categorie": "champions-kanto",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1796,7 +1932,9 @@ const DATA = {
       "fichier": "models/sabrina_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "champions-kanto"
+      "categorie": "champions-kanto",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1819,7 +1957,9 @@ const DATA = {
       "fichier": "models/blaine_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "champions-kanto"
+      "categorie": "champions-kanto",
+      "maj": "2026-10-19T14:06:55",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1842,7 +1982,9 @@ const DATA = {
       "fichier": "models/oak_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "professeurs"
+      "categorie": "professeurs",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1865,7 +2007,9 @@ const DATA = {
       "fichier": "models/elm_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "professeurs"
+      "categorie": "professeurs",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1888,7 +2032,9 @@ const DATA = {
       "fichier": "models/birch_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "professeurs"
+      "categorie": "professeurs",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1911,7 +2057,9 @@ const DATA = {
       "fichier": "models/rowan_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "professeurs"
+      "categorie": "professeurs",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1934,7 +2082,9 @@ const DATA = {
       "fichier": "models/juniper_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "professeurs"
+      "categorie": "professeurs",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1957,7 +2107,9 @@ const DATA = {
       "fichier": "models/sycamore_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "professeurs"
+      "categorie": "professeurs",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -1980,7 +2132,9 @@ const DATA = {
       "fichier": "models/kukui_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "professeurs"
+      "categorie": "professeurs",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -2003,7 +2157,9 @@ const DATA = {
       "fichier": "models/magnolia_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "professeurs"
+      "categorie": "professeurs",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -2026,7 +2182,9 @@ const DATA = {
       "fichier": "models/sonia_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "professeurs"
+      "categorie": "professeurs",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -2049,7 +2207,9 @@ const DATA = {
       "fichier": "models/sada_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "professeurs"
+      "categorie": "professeurs",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -2072,7 +2232,9 @@ const DATA = {
       "fichier": "models/turo_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "professeurs"
+      "categorie": "professeurs",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-18T23:28:17"
     },
     {
       "titre": {
@@ -2095,7 +2257,9 @@ const DATA = {
       "fichier": "models/red_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "heros-kanto"
+      "categorie": "heros-kanto",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-19T02:31:49"
     },
     {
       "titre": {
@@ -2118,7 +2282,9 @@ const DATA = {
       "fichier": "models/lorelei_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "conseil-4-kanto"
+      "categorie": "conseil-4-kanto",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-19T02:31:49"
     },
     {
       "titre": {
@@ -2141,7 +2307,9 @@ const DATA = {
       "fichier": "models/bruno_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "conseil-4-kanto"
+      "categorie": "conseil-4-kanto",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-19T02:31:49"
     },
     {
       "titre": {
@@ -2164,7 +2332,9 @@ const DATA = {
       "fichier": "models/agatha_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "conseil-4-kanto"
+      "categorie": "conseil-4-kanto",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-19T02:31:49"
     },
     {
       "titre": {
@@ -2187,7 +2357,9 @@ const DATA = {
       "fichier": "models/nurse_joy_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "anime"
+      "categorie": "anime",
+      "maj": "2026-10-21T16:57:47",
+      "ajout": "2026-10-19T02:31:49"
     },
     {
       "titre": {
@@ -2210,7 +2382,9 @@ const DATA = {
       "fichier": "models/officer_jenny_hm5_npc.glb",
       "image": "",
       "animation": "idle",
-      "categorie": "anime"
+      "categorie": "anime",
+      "maj": "2026-10-19T14:24:03",
+      "ajout": "2026-10-19T02:31:49"
     },
     {
       "titre": {
@@ -2234,7 +2408,9 @@ const DATA = {
       "fichier": "models/abomasnow_lucfkann_noel_male.glb",
       "image": "",
       "animation": "animation.abomasnow_lucfkann_noel.battle_idle",
-      "categorie": "apparence-sous"
+      "categorie": "apparence-sous",
+      "maj": "2026-10-19T04:14:30",
+      "ajout": "2026-10-19T04:14:30"
     },
     {
       "titre": {
@@ -2258,7 +2434,9 @@ const DATA = {
       "fichier": "models/snorlax_lucfkann_noel.glb",
       "image": "",
       "animation": "animation.snorlax.battle_idle",
-      "categorie": "apparence-sous"
+      "categorie": "apparence-sous",
+      "maj": "2026-10-19T04:14:30",
+      "ajout": "2026-10-19T04:14:30"
     },
     {
       "titre": {
@@ -2282,7 +2460,9 @@ const DATA = {
       "fichier": "models/pikachu_lucfkann_noel_female-geo.glb",
       "image": "",
       "animation": "animation.pikachu.dance2",
-      "categorie": "apparence-sous"
+      "categorie": "apparence-sous",
+      "maj": "2026-10-19T14:56:38",
+      "ajout": "2026-10-19T14:50:01"
     },
     {
       "titre": {
@@ -2306,7 +2486,9 @@ const DATA = {
       "fichier": "models/stantler_lucfkann_noel.glb",
       "image": "",
       "animation": "animation.stantler_lucfkann_noel.battle_idle",
-      "categorie": "apparence-sous"
+      "categorie": "apparence-sous",
+      "maj": "2026-10-19T04:14:30",
+      "ajout": "2026-10-19T04:14:30"
     },
     {
       "titre": {
@@ -2330,7 +2512,9 @@ const DATA = {
       "fichier": "models/alcremie_lucfkann_noel.glb",
       "image": "",
       "animation": "animation.alcremie_lucfkann_noel.battle_idle",
-      "categorie": "apparence-sous"
+      "categorie": "apparence-sous",
+      "maj": "2026-10-19T12:27:12",
+      "ajout": "2026-10-19T12:27:12"
     },
     {
       "titre": {
@@ -2354,7 +2538,9 @@ const DATA = {
       "fichier": "models/delibird_lucfkann_noel.glb",
       "image": "",
       "animation": "animation.delibird_lucfkann_noel.battle_idle",
-      "categorie": "apparence-sous"
+      "categorie": "apparence-sous",
+      "maj": "2026-10-19T12:27:12",
+      "ajout": "2026-10-19T12:27:12"
     },
     {
       "titre": {
@@ -2378,7 +2564,9 @@ const DATA = {
       "fichier": "models/eevee_lucfkann_noel_male.gltf",
       "image": "",
       "animation": "animation.eevee_lucfkann_noel.battle_idle",
-      "categorie": "apparence-sous"
+      "categorie": "apparence-sous",
+      "maj": "2026-10-19T12:27:12",
+      "ajout": "2026-10-19T12:27:12"
     },
     {
       "titre": {
@@ -2402,7 +2590,9 @@ const DATA = {
       "fichier": "models/gengar_lucfkann_noel.gltf",
       "image": "",
       "animation": "animation.gengar_lucfkann_noel.battle_idle",
-      "categorie": "apparence-sous"
+      "categorie": "apparence-sous",
+      "maj": "2026-10-19T12:27:12",
+      "ajout": "2026-10-19T12:27:12"
     },
     {
       "titre": {
@@ -2426,7 +2616,9 @@ const DATA = {
       "fichier": "models/cubchoo_lucfkann_noel.gltf",
       "image": "",
       "animation": "animation.cubchoo_lucfkann_noel.battle_idle",
-      "categorie": "apparence-sous"
+      "categorie": "apparence-sous",
+      "maj": "2026-10-19T12:27:12",
+      "ajout": "2026-10-19T12:27:12"
     },
     {
       "titre": {
@@ -2450,7 +2642,9 @@ const DATA = {
       "fichier": "models/mew_lucfkann_noel.glb",
       "image": "",
       "animation": "animation.mew_lucfkann_noel.battle_idle",
-      "categorie": "apparence-sous"
+      "categorie": "apparence-sous",
+      "maj": "2026-10-19T14:50:01",
+      "ajout": "2026-10-19T14:50:01"
     },
     {
       "titre": {
@@ -2474,7 +2668,9 @@ const DATA = {
       "fichier": "models/articuno_lucfkann_noel-geo.glb",
       "image": "",
       "animation": "animation.articuno_lucfkann_noel.battle_idle",
-      "categorie": "apparence-sous"
+      "categorie": "apparence-sous",
+      "maj": "2026-10-19T14:50:01",
+      "ajout": "2026-10-19T14:50:01"
     },
     {
       "titre": {
@@ -2498,7 +2694,9 @@ const DATA = {
       "fichier": "models/regigigas_lucfkann_noel.glb",
       "image": "",
       "animation": "animation.regigigas_lucfkann_noel.battle_idle",
-      "categorie": "apparence-sous"
+      "categorie": "apparence-sous",
+      "maj": "2026-10-19T14:50:01",
+      "ajout": "2026-10-19T14:50:01"
     },
     {
       "titre": {
@@ -2522,7 +2720,9 @@ const DATA = {
       "fichier": "models/lapras_lucfkann_noel.glb",
       "image": "",
       "animation": "animation.lapras_lucfkann_noel.battle_idle",
-      "categorie": "apparence-sous"
+      "categorie": "apparence-sous",
+      "maj": "2026-10-19T17:19:59",
+      "ajout": "2026-10-19T17:19:59"
     }
   ],
   "plugins": [],

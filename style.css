@@ -249,3 +249,13 @@ nav a { white-space: nowrap; }
   nav { width: 100%; justify-content: space-between; gap: 10px; }
   .section, .sub-section { scroll-margin-top: 100px; }
 }
+
+/* Recherche et tri des modèles */
+.outils-modeles { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.outils-modeles input, .outils-modeles select {
+  font: inherit; font-size: 14px; color: var(--text); background: var(--surface);
+  border: 1px solid var(--border); border-radius: var(--radius); padding: 7px 10px;
+}
+.outils-modeles input { flex: 1 1 220px; min-width: 0; }
+.outils-modeles select { flex: 0 1 220px; cursor: pointer; }
+.outils-modeles input:focus, .outils-modeles select:focus { outline: none; border-color: var(--accent); }
