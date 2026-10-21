@@ -105,6 +105,21 @@ function pixelsNets(viewer) {
   });
 }
 
+// Hitbox ModelEngine : les .glb exportés de Blockbench gardent le cube « hitbox » (invisible dans Blockbench, mais affiché
+// par model-viewer). On masque au chargement tout objet nommé « hitbox » : plus besoin de la retirer du fichier.
+function masquerHitbox(viewer) {
+  viewer.addEventListener("load", () => {
+    const sym = Object.getOwnPropertySymbols(viewer).find(s => s.description === "scene");
+    const scene = sym && viewer[sym];
+    if (!scene?.traverse) return;
+    let trouve = false;
+    scene.traverse(o => {
+      if (/^hitbox/i.test(o.name || "")) { o.visible = false; trouve = true; }
+    });
+    if (trouve) scene.queueRender?.();
+  });
+}
+
 // ---------- Plein écran : un modèle en grand, avec le choix de l'animation ----------
 
 const pleinEcran = document.getElementById("plein-ecran");
@@ -122,6 +137,7 @@ function ouvrirPleinEcran(m) {
     ...(m.animation ? { autoplay: "", "animation-name": m.animation } : {}),
   });
   pixelsNets(mv);
+  masquerHitbox(mv);
   mv.addEventListener("load", () => rendreAnimations(mv));
   zone.append(mv);
   rendreAnimations(null);
@@ -183,6 +199,7 @@ function carteModele(m) {
       ...(m.animation ? { autoplay: "", "animation-name": m.animation } : {}),
     });
     pixelsNets(apercu);
+    masquerHitbox(apercu);
     const bouton = el("button", { type: "button", class: "btn-plein" }, [el("span", { "aria-hidden": "true", text: "⛶" })]);
     bouton.dataset.libelle = "plein";
     bouton.setAttribute("aria-label", ui("plein"));
